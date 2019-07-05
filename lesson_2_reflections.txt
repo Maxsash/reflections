@@ -3,4 +3,7 @@ A. Upon initializing a repository, a .git folder is created in that directory wh
 
 Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
 A. Staging area keeps track of all the changes being made before a commit is made. The changes will be made in the working directory and they will be implemented into the repository after a commit is made.
-  Without the staging area, each and every change made will account for it's own commit and this will result in a lot of versions being created without much logic.
+Without the staging area, each and every change made will account for it's own commit and this will result in a lot of versions being created without much logic.
+
+Q. How can you use the staging area to make sure you have one commit per logical change?
+A. One logical change doesn't necessarily mean one change. For the cases when changes made to several files add up to one logical change, staging area is useful. Once all the changes have been made for a logical change to be justified, they are added to the staging area and then a commit is made. 
