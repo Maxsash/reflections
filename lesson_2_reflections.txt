@@ -1,0 +1,6 @@
+Q. What happens when you initialize a repository? Why do you need to do it?
+A. Upon initializing a repository, a .git folder is created in that directory which will from then on contain all the history metadata. We need to do it if we require that the git version control system be implemented on that directory. This will allow us to track all the changes made to that directory.
+
+Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
+A. Staging area keeps track of all the changes being made before a commit is made. The changes will be made in the working directory and they will be implemented into the repository after a commit is made.
+  Without the staging area, each and every change made will account for it's own commit and this will result in a lot of versions being created without much logic.
