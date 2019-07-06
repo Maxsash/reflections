@@ -6,4 +6,7 @@ A. Staging area keeps track of all the changes being made before a commit is mad
 Without the staging area, each and every change made will account for it's own commit and this will result in a lot of versions being created without much logic.
 
 Q. How can you use the staging area to make sure you have one commit per logical change?
-A. One logical change doesn't necessarily mean one change. For the cases when changes made to several files add up to one logical change, staging area is useful. Once all the changes have been made for a logical change to be justified, they are added to the staging area and then a commit is made. 
+A. One logical change doesn't necessarily mean one change. For the cases when changes made to several files add up to one logical change, staging area is useful. Once all the changes have been made for a logical change to be justified, they are added to the staging area and then a commit is made.
+
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A. In case one needs to try out some experimental features while also keeping the current version of project secure, a new branch can be utilized. Doing so will not affect the master branch and the user would still be able to play around with the project.
