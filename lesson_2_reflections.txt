@@ -16,3 +16,6 @@ A. The diagrams help get a sense of direction of progression as well as how each
 
 Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 A. Merging of two branches represents the unification of the content of those branches. It is represented the way it is because the data from two branches is being combined and then the merged version keeps track of the information of both of the parent versions.
+
+Q. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A. The pros of the automatic merging of Git are that the user does not need to bother with every little change that was made. Most of the things that were added or removed will be resolved by Git automatically. Always merging manually will take up a lot of time and energy on the user's part. The cons of automatic merging is that sometimes merge may happen in an unexpected or illogical way. Since programs can get complicated.
