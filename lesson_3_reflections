@@ -3,3 +3,8 @@ A. A remote repository would be helpful if the user wants to work on the reposit
 
 Q. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A. One might not want to stay up-to-date with remote repository if they want to maintain a different version of the project on their local repository. Additionally, in case of multiple contributors one may not want to always pull changes made by others on their machine.
+
+Q. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A. Branches exist on the same repository and are used when one needs to make experimental changes or work in collaboration with others on a project.
+Clones are simply the copies of repositories. They can be to and from any repository at all and are used when one needs to completely separate two versions of a project.
+Forks are basically clones made to and from the GitHub server only.
