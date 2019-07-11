@@ -12,5 +12,8 @@ Forks are basically clones made to and from the GitHub server only.
 Q. What is the benefit of having a copy of the last known state of the remote stored locally?
 A. Having a copy of last known state of the remote stored locally enables the user to be aware of the changes made since and how it might affect the project. One can compare them using diff and make sure if they want to merge the two versions or create a separate branch.
 
-Q.How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-A. To collaborate without using Git or GitHub, one will have to exchange change logs manually. This can be a cumbersome process and the chances of changes made without a good explanation are high. It might work on smaller projects but on the more complicated ones it would be almost impossible to convey the reasoning behind each and every change to everyone involved. Clearly, using Git and GitHub would be much easier. 
+Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A. To collaborate without using Git or GitHub, one will have to exchange change logs manually. This can be a cumbersome process and the chances of changes made without a good explanation are high. It might work on smaller projects but on the more complicated ones it would be almost impossible to convey the reasoning behind each and every change to everyone involved. Clearly, using Git and GitHub would be much easier.
+
+Q. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A. Whenever there are changes that might interfere with the working of the master branch or if we want to keep a working version ready at all times, then it is wiser to make changes in a separate branch rather than directly in master. Making all changes in the master branch will make the sharing of the project easier but maintaining it would be easier if separate branches are used whenever required.
